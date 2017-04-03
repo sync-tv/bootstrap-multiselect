@@ -10,7 +10,7 @@ Link to original project documentation -> [http://davidstutz.github.io/bootstrap
 
 ## Additions
 
-Few options has been add : 
+Few options have been add : 
     - includeSelectNoneOption
     - selectNoneJustVisible
     - selectNoneText
