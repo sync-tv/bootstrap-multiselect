@@ -1,12 +1,12 @@
 {
   "name": "bootstrap-multiselect",
   "description": "Twitter Bootstrap plugin to make selects user friendly.",
-  "homepage": "http://davidstutz.github.io/bootstrap-multiselect/",
-  "version": "0.9.13",
+  "homepage": "https://github.com/sync-tv/bootstrap-multiselect",
+  "version": "0.9.14",
   "keywords": [
       "js",
       "css",
-      "less",
+      "sass",
       "bootstrap",
       "jquery",
       "multiselect"
@@ -14,7 +14,7 @@
   "main": [
     "./dist/js/bootstrap-multiselect.js",
     "./dist/css/bootstrap-multiselect.css",
-    "./dist/less/bootstrap-multiselect.less"
+    "./dist/less/bootstrap-multiselect.sass"
   ],
   "dependencies": {
     "jquery": ">= 1.11.0",
