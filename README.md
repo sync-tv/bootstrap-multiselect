@@ -11,13 +11,13 @@ Link to original project documentation -> [http://davidstutz.github.io/bootstrap
 ## Additions
 
 Few options have been add : 
-    - includeSelectNoneOption
-    - selectNoneJustVisible
-    - selectNoneText
-    - selectNoneValue
-    - selectNoneName
-    - includeSelectAllDivider 
-    - includeSelectNoneDivider
+    * includeSelectNoneOption
+    * selectNoneJustVisible
+    * selectNoneText
+    * selectNoneValue
+    * selectNoneName
+    * includeSelectAllDivider 
+    * includeSelectNoneDivider
 
 ### includeSelectNoneOption
 
@@ -25,7 +25,7 @@ Set to `true` or `false` to enable or disable the select none option.
 
 ```javascript
 $('#my-multiselect').multiselect({
-            includeSelectAllOption: true
+            includeSelectNoneOption: true
 })
 ```
 The `includeSelectNoneOption` option can also be used in combination with `optgroup`'s and `includeSelectAllOption`.
