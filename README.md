@@ -1,16 +1,39 @@
 # Bootstrap Multiselect
 
-[![Build Status](https://travis-ci.org/davidstutz/bootstrap-multiselect.svg?branch=master)](https://travis-ci.org/davidstutz/bootstrap-multiselect)
-
 Bootstrap Multiselect is a JQuery based plugin to provide an intuitive user interface for using select inputs with the multiple attribute present. Instead of a select a bootstrap button will be shown w dropdown menu containing the single options as checkboxes.
 
-Documentation, Examples, FAQ and License: [http://davidstutz.github.io/bootstrap-multiselect/](http://davidstutz.github.io/bootstrap-multiselect/).
+This project is a fork of http://davidstutz.github.io/bootstrap-multiselect/
 
-Bootstrap Multiselect is featured in an article on [tutorialzine](http://tutorialzine.com/): [50 must-Have Plugins for Extending Twitter Bootstrap](http://tutorialzine.com/2013/07/50-must-have-plugins-for-extending-twitter-bootstrap/); on [Bootsnipp](http://bootsnipp.com/)'s [list of Twitter Bootstrap recourses](http://bootsnipp.com/resources); and available on [NuGet](https://www.nuget.org/): [Bootstrap.Multiselect](https://www.nuget.org/packages/Bootstrap.Multiselect/0.9.9).
-
-Also check out [Bootstrap Strength Meter](https://github.com/davidstutz/bootstrap-strength-meter) - a Twitter Bootstrap plugin to visualize password strength using [Password Score](https://github.com/davidstutz/password-score).
+Link to original project documentation -> [http://davidstutz.github.io/bootstrap-multiselect/](http://davidstutz.github.io/bootstrap-multiselect/).
 
 ![Example of a multiselect.](example.png?raw=true "Example of a multiselect.")
+
+##Additions
+
+few options has been add : 
+    - includeSelectNoneOption
+    - selectNoneJustVisible
+    - selectNoneText
+    - selectNoneValue
+    - selectNoneName
+    - includeSelectAllDivider 
+    - includeSelectNoneDivider
+
+### includeSelectNoneOption
+
+Set to 'true' or 'false' to enable or disable the select none option.
+
+```javascript
+$('#my-multiselect').multiselect({
+            includeSelectAllOption: true
+})
+```
+The 'includeSelectNoneOption' option can also be used in combination with 'optgroup''s and 'includeSelectAllOption'.
+Note that the select none does not trigger the onChange event and only triggers the 'onDeselectAll' event
+
+### selectNoneJustVisible
+
+Setting both 'includeSelectNoneOption' and 'enableFiltering' to 'true', the select none option does always deselect only the visible option. With setting 'selectNoneJustVisible' to 'false' this behavior is changed such that always all options (irrespective of whether they are visible) are deselected.
 
 ## License
 
