@@ -40,23 +40,58 @@ Setting both `includeSelectNoneOption` and `enableFiltering` to `true`, the sele
 
 ### selectNoneText	
 
-The text displayed for the select none option.
+The text displayed for the select none option. ( default : `None`)
+
+```javascript
+$('#my-multiselect').multiselect({
+            includeSelectNoneOption: true,
+            selectNoneText: 'Deselect all'
+})
+```
 
 ### selectNoneValue
 
 The select none option is added as additional `option` within the `select`. To distinguish this option from the original options the value used for the select all option can be configured using the `selectNoneValue` option.
 
+```javascript
+$('#my-multiselect').multiselect({
+            includeSelectNoneOption: true,
+            selectNoneValue: 'select-none-value'
+})
+```
+
 ### selectNoneName
 
 This option allows to control the name given to the select none option
+
+```javascript
+$('#my-multiselect').multiselect({
+            includeSelectNoneOption: true,
+            selectNoneValue: 'select-none-name'
+})
+```
 
 ### includeSelectAllDivider
 
 This option add a divider after the select all option
 
+```javascript
+$('#my-multiselect').multiselect({
+            includeSelectAllOption: true,
+            includeSelectAllDivider: true
+})
+```
+
 ### includeSelectNoneDivider
 
 This option add a divider after the select none option
+
+```javascript
+$('#my-multiselect').multiselect({
+            includeSelectNoneOption: true,
+            includeSelectNoneDivider: true
+})
+```
 
 ## License
 
