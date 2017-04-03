@@ -9,12 +9,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/davidstutz/bootstrap-multiselect"
+    "url": "https://github.com/sync-tv/bootstrap-multiselect"
   },
   "keywords": [
     "js",
     "css",
-    "less",
+    "sass",
     "bootstrap",
     "jquery",
     "multiselect"
@@ -22,9 +22,9 @@
   "author": "David Stutz",
   "license": "Apache License, Version 2.0",
   "bugs": {
-    "url": "https://github.com/davidstutz/bootstrap-multiselect/issues"
+    "url": "https://github.com/sync-tv/bootstrap-multiselect/issues"
   },
-  "homepage": "https://github.com/davidstutz/bootstrap-multiselect",
+  "homepage": "https://github.com/sync-tv/bootstrap-multiselect",
   "scripts": {
     "test": "karma start tests/karma.conf.js --single-run"
   },
