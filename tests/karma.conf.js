@@ -51,7 +51,7 @@ module.exports = function(config) {
 
       // start these browsers
       // available browser launchers: https://npmjs.org/browse/keyword/karma-launcher
-      browsers: ['Chrome', 'ChromeCanary', 'Firefox', 'Opera', 'IE'],
+      browsers: ['Chrome'],
 
       // e.g see https://swizec.com/blog/how-to-run-javascript-tests-in-chrome-on-travis/swizec/6647
       customLaunchers: {
