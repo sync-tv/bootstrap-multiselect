@@ -8,9 +8,9 @@ Link to original project documentation -> [http://davidstutz.github.io/bootstrap
 
 ![Example of a multiselect.](example.png?raw=true "Example of a multiselect.")
 
-##Additions
+## Additions
 
-few options has been add : 
+Few options has been add : 
     - includeSelectNoneOption
     - selectNoneJustVisible
     - selectNoneText
@@ -21,19 +21,19 @@ few options has been add :
 
 ### includeSelectNoneOption
 
-Set to 'true' or 'false' to enable or disable the select none option.
+Set to `true` or `false` to enable or disable the select none option.
 
 ```javascript
 $('#my-multiselect').multiselect({
             includeSelectAllOption: true
 })
 ```
-The 'includeSelectNoneOption' option can also be used in combination with 'optgroup''s and 'includeSelectAllOption'.
-Note that the select none does not trigger the onChange event and only triggers the 'onDeselectAll' event
+The `includeSelectNoneOption` option can also be used in combination with `optgroup`'s and `includeSelectAllOption`.
+Note that the select none does not trigger the onChange event and only triggers the `onDeselectAll` event
 
 ### selectNoneJustVisible
 
-Setting both 'includeSelectNoneOption' and 'enableFiltering' to 'true', the select none option does always deselect only the visible option. With setting 'selectNoneJustVisible' to 'false' this behavior is changed such that always all options (irrespective of whether they are visible) are deselected.
+Setting both `includeSelectNoneOption` and `enableFiltering` to `true`, the select none option does always deselect only the visible option. With setting `selectNoneJustVisible` to `false` this behavior is changed such that always all options (irrespective of whether they are visible) are deselected.
 
 ## License
 
