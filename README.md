@@ -20,6 +20,8 @@ Few options have been add :
 * includeSelectAllDivider 
 * includeSelectNoneDivider
 
+New options work like linked options to "select all" 
+
 ### includeSelectNoneOption
 
 Set to `true` or `false` to enable or disable the select none option.
@@ -35,6 +37,26 @@ Note that the select none does not trigger the onChange event and only triggers 
 ### selectNoneJustVisible
 
 Setting both `includeSelectNoneOption` and `enableFiltering` to `true`, the select none option does always deselect only the visible option. With setting `selectNoneJustVisible` to `false` this behavior is changed such that always all options (irrespective of whether they are visible) are deselected.
+
+### selectNoneText	
+
+The text displayed for the select none option.
+
+### selectNoneValue
+
+The select none option is added as additional `option` within the `select`. To distinguish this option from the original options the value used for the select all option can be configured using the `selectNoneValue` option.
+
+### selectNoneName
+
+This option allows to control the name given to the select none option
+
+### includeSelectAllDivider
+
+This option add a divider after the select all option
+
+### includeSelectNoneDivider
+
+This option add a divider after the select none option
 
 ## License
 
