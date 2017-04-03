@@ -10,14 +10,15 @@ Link to original project documentation -> [http://davidstutz.github.io/bootstrap
 
 ## Additions
 
-Few options have been add : 
-    * includeSelectNoneOption
-    * selectNoneJustVisible
-    * selectNoneText
-    * selectNoneValue
-    * selectNoneName
-    * includeSelectAllDivider 
-    * includeSelectNoneDivider
+Few options have been add :
+
+* includeSelectNoneOption
+* selectNoneJustVisible
+* selectNoneText
+* selectNoneValue
+* selectNoneName
+* includeSelectAllDivider 
+* includeSelectNoneDivider
 
 ### includeSelectNoneOption
 
